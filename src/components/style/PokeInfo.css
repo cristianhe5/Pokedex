@@ -1,0 +1,214 @@
+.pokeInfo{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(214, 214, 214, 0.84); 
+    
+}
+.pokeInfo__fix-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pokeInfo__container{
+    width: 100%;
+    max-width: 60em;
+    padding: 7rem 3rem ;
+    margin-top: 3em;
+
+}
+.pokeInfo__container-img{
+    aspect-ratio: 5;
+    position: relative;
+    
+}
+.pokeInfo__img{
+    position: absolute;
+    width: 50%;
+    max-width:300px ;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0.1em;  
+}
+.details__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.pokeInfo__id-div{
+    border: 1px solid rgba(117, 117, 117, 0.504);
+    margin-top: 1rem;
+    padding: 0 0.5em;
+}
+.pokeInfo__name{
+    
+    font-size: 2.2em ;
+    text-transform: capitalize;
+    padding: 0.5em;
+    
+}
+.pokeInfo__size{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1em;
+    margin-bottom: 0.5em;
+}
+.size__li{
+    display: grid;
+    justify-items: center;
+}
+.size__span{
+    font-size: 0.7em;
+}
+.size__span-num{
+    font-weight: 400;
+}
+.description__div{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+    padding: 1em;
+
+}
+.type__acticle{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.type__title{
+    text-align: center;
+}
+.type__ul{
+    width: 100%;
+    display: flex;  
+    justify-content: center;  
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding: 1em;
+}
+.type__li{
+    width: 100%;
+    max-width: 7em;
+    min-width: 5em;
+    text-align: center;
+    padding: 0.3em 0.2em;
+}
+.type__span{
+    color: white;
+}
+.abilities__article{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.abilities__title{
+    text-align: center;
+}
+.abilities__ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding: 1em;
+
+}
+.abilities__li{
+    width: 100%;
+    max-width: 7em;
+    min-width: 5em;
+    border: 1px solid #999;
+    text-align: center;
+    padding: 0.3em 0.2em;
+    
+}
+.abilities__span{
+    color: rgb(0, 0, 0);
+}
+.stats__section{
+    background-color: white;
+    padding: 2em;
+}
+.stats__title{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.stats__container{
+
+}
+.stats__div-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+.barras{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(90deg, #ffd97a -2.25%, #E6901E 133.18%);
+
+}
+.movemets__section{
+    width: 100%;
+    background: white;
+    margin-top: 2em;
+    padding: 2em;
+}
+.movemets__title{
+    padding-bottom: 1em;
+}
+.movemets__ul{
+   display: flex;
+   flex-wrap: wrap;
+    gap: 1em;
+}
+.movemets__li{
+    background: rgb(222, 224, 222);
+    box-sizing: content-box;    
+    border-radius: 5em;
+    padding: 0.5em 0 ;
+    text-align: center;
+    
+}
+.movemets__span{
+    padding: 0.5em;
+    font-size: 1.1em; 
+    font-weight: 300;
+}
+@media (max-width: 400px) {
+      
+    .pokeInfo__container{
+        padding: 7rem 1.5rem ;  
+    }
+    .type__ul{
+        padding: 0.1em;
+        margin-top: 0.5em;
+    }
+    .abilities__ul{        
+        padding: 0.1em;
+        margin-top: 0.5em;
+    
+    }
+    .stats__section{
+        padding: 1em;
+    }
+    .movemets__section{
+        padding: 1em;
+    }
+}
+
+@media (max-width: 270px) {
+    .abilities__span{
+        font-size: 0.8rem ;
+    }  
+    
+}
+
+

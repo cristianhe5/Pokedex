@@ -1,0 +1,66 @@
+.home__container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
+    background: rgba(214, 214, 214, 0.84);
+}
+.home__img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__title{
+    width: 380px;
+    height: 6em ;
+        
+}
+.home__pokedex{
+    width: 270px;
+    height: 8em ; 
+    margin-top: 1em;
+}
+.home__h2{
+    font-size: 1.8em;
+    font-weight: 700;
+    color: rgb(255, 19, 19)
+}
+.home__p{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.home__form{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 2.3em;
+}
+.home__input{
+    
+    font-size: 1.3em;
+    border: none;
+    padding: 0 0.3em;
+    outline: none;
+}
+.home__btn{
+    font-size: 1.3em;
+    border: none;
+    width: 5em;
+    background: rgb(246, 42, 42);
+    color: white;
+    transition: filter 0.33s
+}
+.home__btn:hover{
+    filter: brightness(0.9);
+}
+.home__btn:active{
+    transform: scale(0.98);
+}
+
+
+
