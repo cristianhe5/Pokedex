@@ -45,7 +45,7 @@ const PokedexPage = () => {
     <div className='pokedex'>
       <header className='boxes__header'>
         <div className='box__red'>
-         <img className='header__img-title' src="../../public/imgTitle.png" alt="" />
+         <img className='header__img-title' src="./imgTitle.png" alt="" />
          <img className='header__img-gift' src="https://media.tenor.com/V4gdku6HgPQAAAAi/pikachu-cute.gif" alt="" />
         </div>
         <div className='box__black'></div>

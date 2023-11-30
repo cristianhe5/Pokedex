@@ -23,10 +23,10 @@ const HomePage = () => {
     
       <div className='home__container'>
           <div className='home__img-container'>
-            <img className='home__title' src="../../public/imgTitle.png" alt="" />
+            <img className='home__title' src="./imgTitle.png" alt="" />
           </div>
           <div className='home__img-container'>
-            <img className='home__pokedex' src="../../public/imgPokedex.png" alt="" />
+            <img className='home__pokedex' src="./imgPokedex.png" alt="" />
           </div>          
           <h2 className='home__h2'>Hi Trainer!</h2>
           <p className='home__p'>To start, please give me your trainer name</p>
